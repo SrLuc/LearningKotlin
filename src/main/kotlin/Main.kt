@@ -1,3 +1,4 @@
+//
 fun printMessage(message:String){
     println("$message")
 }
@@ -13,8 +14,8 @@ fun MulNumbers(x:Int, y:Int):Int{
 
 fun SumNumbers(a:Int, b:Int) = a + b;
 
-fun getDataFromDatabase(localhost:String, port:Int, user:String, dbName:String, dbPass:Int ){
-    print("$localhost,$port,$user,$dbName,$dbPass")
+fun createConnectionWithDatabase(localhost:String, port:Int, user:String, dbName:String, dbPass:Int ){
+    println("$localhost,$port,$user,$dbName,$dbPass")
 }
 
 fun printAll(vararg messages:String){
@@ -24,9 +25,9 @@ fun printAll(vararg messages:String){
 fun printLanguages(vararg languages:String, prefix: String){
     for(lang in languages) println(lang + prefix)
 }
-
-
 fun main() {
 
-
 }
+
+
+
