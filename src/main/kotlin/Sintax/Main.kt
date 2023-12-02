@@ -1,3 +1,5 @@
+package Sintax
+
 //
 fun printMessage(message:String){
     println("$message")

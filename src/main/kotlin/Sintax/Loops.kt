@@ -1,3 +1,5 @@
+package Sintax
+
 fun forLoop(){
     val cakes = listOf("Chocolate","Carrot","Pineapple")
     for (cake in cakes){

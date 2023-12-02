@@ -1,3 +1,5 @@
+package Sintax
+
 fun main(){
 
     //count 0 1 2 3

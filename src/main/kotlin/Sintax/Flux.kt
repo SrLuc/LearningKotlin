@@ -1,3 +1,5 @@
+package Sintax
+
 // Switch case Javascript ?
 fun cases(obj:Any){
     when(obj){

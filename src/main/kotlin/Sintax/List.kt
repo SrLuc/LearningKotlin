@@ -1,4 +1,4 @@
-
+package Sintax
 fun usingMutableList(){
     var myList = mutableListOf("Apple","Pineaple", "Grape", "Orange", "Lemon")
     myList.addFirst("Melon")
