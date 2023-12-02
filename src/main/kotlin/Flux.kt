@@ -51,6 +51,18 @@ fun typeOf(data:Any){
     }
 }
 
+fun kindOfVariable(kind:Any){
+
+    var result = when(kind){
+        1 -> println("Type Number")
+        is String -> println("type String")
+        is Boolean -> println("Boolean type")
+        else -> println("Anything")
+    }
+
+    return result
+}
+
 fun main(){
 
 }
